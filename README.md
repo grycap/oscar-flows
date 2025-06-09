@@ -19,6 +19,14 @@ The deployed service includes additional subflows for asynchronous services in O
 
 Also, in the same location, inside `oscar-examples`, you have a list of example flows that can help you better understand the work of different nodes and subflows.
 
+## OSCAR version considerations
+
+The definitions in `flows.yaml` and `script.sh` are not compatible with OSCAR clusters version 3.5.3 or lower, as these versions do not support secrets.  
+
+To deploy the service on older versions, you need to change the admin password variable definition from `environment secrets` to `environment variables`.  
+
+**Note:** This change will expose the admin password to all users who have access to the service.
+
 ## Resources and Documentation
 
 - [Node-RED Documentation](https://nodered.org/docs/)
