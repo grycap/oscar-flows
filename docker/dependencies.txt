@@ -3,6 +3,11 @@ node-red-contrib-oscar-cowsay
 node-red-contrib-oscar-yolo
 node-red-contrib-oscar-grayify
 node-red-contrib-oscar-plants-classification-tensorflow
+node-red-contrib-oscar-bodypose-async
+node-red-contrib-oscar-fishdetector-async
+node-red-contrib-oscar-fishdetector-zip-async
+node-red-contrib-oscar-litterassesment-async
+node-red-contrib-oscar-thermaldetector-async
 node-red-node-base64
 node-red-contrib-string
 node-red-contrib-time_interval
@@ -11,3 +16,5 @@ node-red-contrib-exec-queue
 node-red-contrib-minio-all
 node-red-contrib-play-audio
 node-red-contrib-zip
+node-red-contrib-spreadsheet-in
+node-red-contrib-image-group-visualization
