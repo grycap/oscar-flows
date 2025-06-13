@@ -12,13 +12,6 @@ You also can use the `flows.yaml` and `script.sh`, present in this repository an
 > ⚠️ **Warning**  
 > If you want to deploy the service using `flows.yaml` and `script.sh`, don't forget to change the admin password that is in `flows.yaml`. 🔑
 
-## Subflows and examples 📦
-
-The deployed service includes additional subflows for asynchronous services in OSCAR. You can import them by going to:
-- `Top right corner menu` → `Import` → `Local` → `oscar-subflows`
-
-Also, in the same location, inside `oscar-examples`, you have a list of example flows that can help you better understand the work of different nodes and subflows.
-
 ## OSCAR version considerations ⚠️
 
 The definitions in `flows.yaml` and `script.sh` are not compatible with OSCAR clusters version 3.5.3 or lower, as these versions do not support secrets.  
